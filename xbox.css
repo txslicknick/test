@@ -1,0 +1,134 @@
+/* Flydigi Vader 5 Pro Skin for GamepadViewer overlay | Made by vlxkvi
+HOW TO USE IN OBS:
+1. Go to GamepadViewer.com and generate a URL (make sure to USE THE XBOX SKIN or leave the skin blank)
+2. Generate your URL once the settings are correct and copy it to your clipboard
+3. In OBS, create a new browser source
+4. In the URL Screen, paste the link copied from GamepadViewer.com
+5. Set the width to 825 and the height to 700
+6. Paste the contents of this CSS file into the Custom CSS field
+7. Click Done.
+8. Enjoy the skin! */
+body { 
+    background-color: #000000; 
+    background-color: RGBA(0, 0, 0, 0); 
+    margin: 0 auto; 
+    overflow: hidden; 
+} .controller.xbox{
+    background: url(https://i.postimg.cc/2jWLFyHk/Artboard-1.png);
+    width: 808px;
+    height: 678px;
+    margin-left: 0;
+    margin-top: 0;
+} .xbox .sticks {
+    width: 367px;
+    height: 100px;
+    left: 150px;
+    top: 227px;
+}.xbox .stick {
+    background: url(https://i.postimg.cc/dQCZm3W3/Artboard-6.png);
+    width: 100px;
+    height: 100px;
+} .xbox .stick.pressed {
+    background-position: -102px 0;
+} .xbox .stick.right {
+    top: 137px;
+    left: 318px;
+} .xbox .abxy {
+    width: 181px;
+    height: 181px;
+    left: 573px;
+    top: 178px;
+} .xbox .button {
+    background: url(https://i.postimg.cc/Y2FLf0XC/Artboard-2.png);
+    width: 58px;
+    height: 58px;
+} .xbox .button.pressed {
+      background-position-y: -59px;
+    margin-top: 0;
+} .xbox .a {
+    background-position: 0 0;
+    left: 25px;
+    top: 135px;
+} .xbox .b {
+    background-position: -59px 0;
+    left: 82px;
+    top: 82px;
+} .xbox .x {
+    background-position: -118px 0;
+    left: -30px;
+    top: 79px;
+} .xbox .y {
+    background-position: -177px 0;
+    left: 27px;
+    top: 23px;
+} .xbox .arrows {
+    left: 320px;
+    top: 246px;
+    width: 185px;
+    height: 57px;
+} .xbox .quadrant { 
+    display: none; 
+} .xbox .back, .xbox .start {
+    background: url(https://i.postimg.cc/05SKdjtN/Artboard-5.png);
+    width: 48px;
+    height: 47px;
+    opacity: 0;
+} .xbox .start {
+    background-position: 47px 0;
+    float: right;
+} .xbox .dpad {
+    width: 144px;
+    height: 144px;
+    left: 231px;
+    top: 342px;
+} .xbox .face {
+    background: url(https://i.postimg.cc/MZBfbHsK/Artboard-3.png);
+    position: absolute;
+    opacity: 0;
+} .xbox .face.up {
+    background-position: 0 -68px;
+    width: 52px;
+    height: 63px;
+    left: 46px;
+} .xbox .face.down {
+    background-position: -54px 63px;
+    width: 52px;
+    height: 63px;
+    left: 46px;
+    top: 81px;
+} .xbox .face.left {
+    background-position: -108px -68px;
+    width: 64px;
+    height: 52px;
+    left: -1px;
+    top: 47px; 
+} .xbox .face.right {
+    background-position: -175px -68px;
+    width: 63px;
+    height: 52px;
+    left: 81px;
+    top: 46px;
+} .xbox .bumpers {
+    width: 560px;
+    height: 35px;
+    left: 130px;
+    top: 120px;
+} .xbox .bumper {
+    background: url(https://i.postimg.cc/pVj5Yr0p/Artboard-8.png);
+    width: 170px;
+    height: 68px;
+    opacity: 0;
+} .xbox .triggers {
+    width: 475px;
+    height: 123px;
+    left: 167px;
+    top: 5px;
+} .xbox .trigger {
+    background: url(https://i.postimg.cc/05SKdjtr/Artboard-7.png);
+    width: 94px;
+    height: 123px;
+    opacity: 0;
+} .xbox .trigger.right {
+    background-position: -92px 0;
+    transform: rotateY(0);
+}
